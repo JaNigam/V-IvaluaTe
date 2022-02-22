@@ -8,5 +8,5 @@ An AI based Descriptive answer evaluator
 - once the virtual environment is created install the required dependencies using the following line of code :
 - `pip install -r requirements.txt`
 - you can also use the provided venv in this repo (preffered)
-- activating the virtual environment: `.\<virtualenvironment-name>\Scripts\activate
+- activating the virtual environment: `.\<virtualenvironment-name>\Scripts\activate`
 - running the program: `python app.py`
