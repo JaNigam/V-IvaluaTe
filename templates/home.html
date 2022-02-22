@@ -1,0 +1,17 @@
+{%extends "base.html"%}
+{%block head%}
+<title>Home|VivaluaTe</title>
+{%endblock%}
+
+{%block body%}
+<h1>Home Page</h1>
+
+<form action="/upload" method="POST" enctype=multipart/form-data>
+    <input type="file" name="file" id="file">
+    <button type="submit">submit</button>
+</form>
+
+<hr>
+<h1>extracted text:</h1>
+<p>{{text}}</p>
+{%endblock%}
